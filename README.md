@@ -1,0 +1,78 @@
+# 🎬 AI漫剧流程图工具
+
+> 一款用于梳理 AI 漫剧创作流程的桌面工具，让「从灵感到成片」的每一步都清晰可见。
+
+![软件截图](<img width="955" height="498" alt="界面" src="https://github.com/user-attachments/assets/0cfbacf3-3edb-46fc-b354-e5a9837bc987" />
+)
+<!-- 把上面这行换成你自己的截图路径，或直接拖图片到 GitHub 编辑框自动生成链接 -->
+
+---
+
+## 📖 为什么做这个工具
+
+做 AI 漫剧时，素材散落在各种文件夹里：
+
+- 剧本在一个文件夹
+- 分镜图在一个文件夹
+- 生成的画面、配音、成片又各在一个文件夹
+- 每次要找一个素材，就得在文件资源管理器里**来回切换、一层层点进去**
+
+流程一长，光是「找文件、切窗口」就耗掉大量时间，思路也容易被打断。
+
+这个工具就是为了解决这件事：
+**把创作流程和素材集中到一张画布上，节点直接关联文件，不用再来回翻文件夹。**
+
+- 流程可视化，一眼看清做到哪一步
+- 节点直接绑定素材文件，点一下就能定位
+- 素材可以直接从文件资源管理器拖进来，也能直接拖到别的软件里用
+
+一句话：**让素材和流程待在一个地方，不用再切来切去。**
+
+---
+
+## 🎯 这个工具能做什么
+
+| 功能 | 说明 |
+|------|------|
+| 🧩 流程节点编辑 | 从左侧拖拽节点到画布，自由搭建创作流程 |
+| 📂 节点绑定资源 | 节点可选择资源，也可从文件资源管理器直接拖入 |
+| 🖱️ 拖拽生成节点 | 从文件资源管理器拖文件到画布，自动生成节点 |
+| 🔗 跨软件拖拽 | 把节点里的资源直接拖到其他软件使用（目前已通过测试：剪映、微信） |
+| 👁️ 资源预览 | 节点资源可直接预览 |
+| 📍 快速定位 | 双指单击（右键）节点，直接打开资源所在位置 |
+
+![流程节点编辑](<img width="951" height="500" alt="拖拽" src="https://github.com/user-attachments/assets/2c5ef694-4c57-4ce7-9539-164243f3e826" />
+)
+![节点绑定资源](<img width="951" height="500" alt="选择文件" src="https://github.com/user-attachments/assets/af919d87-223f-431a-adf6-b10aefb4349c" />
+)
+![节点绑定资源](<img width="950" height="485" alt="拖拽资源" src="https://github.com/user-attachments/assets/ac0aa833-936e-4e2e-927b-0cd27806432c" />
+)
+![跨软件拖拽](<img width="956" height="504" alt="拖拽至另一文件" src="https://github.com/user-attachments/assets/b8dbf85e-dd16-41ce-8c65-0bfcc8360f76" />
+)
+![资源预览](<img width="960" height="504" alt="预览" src="https://github.com/user-attachments/assets/8df5954c-84f4-470f-a561-e3e917fcd56b" />
+)
+![快速定位](<img width="959" height="496" alt="打开资源位置" src="https://github.com/user-attachments/assets/8debcac5-d954-4e8e-8061-8272258ac702" />
+)
+<!-- 换成你的操作录屏 GIF，效果最好 -->
+
+---
+
+## 🚀 快速开始
+
+### 下载安装（普通用户）
+
+1. 打开右侧 **Releases** 页面
+2. 下载最新的 `.exe` 文件
+   - `AI漫剧流程图 Setup x.x.x.exe` → 安装版，双击安装
+3. 如果 Windows Defender 提示风险，点「更多信息」→「仍要运行」
+   （个人开发、未做代码签名，属于常见误报）
+
+### 从源码运行（开发者）
+
+```bash
+git clone https://github.com/你的用户名/ai-comic-flow.git
+cd ai-comic-flow
+
+npm install
+npm run dev      # 启动开发模式
+npm run dist     # 打包成 exe
