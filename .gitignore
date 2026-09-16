@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test/
+assets/
+*.log
+.DS_Store
+*.txt
+.npmrc
+*.html
