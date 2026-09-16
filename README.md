@@ -2,7 +2,7 @@
 
 > 一款用于梳理 AI 漫剧创作流程的桌面工具，让「从灵感到成片」的每一步都清晰可见。
 
-![软件截图](<img width="955" height="498" alt="界面" src="https://github.com/user-attachments/assets/0cfbacf3-3edb-46fc-b354-e5a9837bc987" />
+![软件截图](images/1.png
 )
 <!-- 把上面这行换成你自己的截图路径，或直接拖图片到 GitHub 编辑框自动生成链接 -->
 
@@ -41,17 +41,19 @@
 | 👁️ 资源预览 | 节点资源可直接预览 |
 | 📍 快速定位 | 双指单击（右键）节点，直接打开资源所在位置 |
 
-![流程节点编辑](<img width="951" height="500" alt="拖拽" src="https://github.com/user-attachments/assets/2c5ef694-4c57-4ce7-9539-164243f3e826" />
+![流程节点编辑](images/2.png
 )
-![节点绑定资源](<img width="951" height="500" alt="选择文件" src="https://github.com/user-attachments/assets/af919d87-223f-431a-adf6-b10aefb4349c" />
+![节点绑定资源](images/3.png
 )
-![节点绑定资源](<img width="950" height="485" alt="拖拽资源" src="https://github.com/user-attachments/assets/ac0aa833-936e-4e2e-927b-0cd27806432c" />
+![节点绑定资源](images/4.png
 )
-![跨软件拖拽](<img width="956" height="504" alt="拖拽至另一文件" src="https://github.com/user-attachments/assets/b8dbf85e-dd16-41ce-8c65-0bfcc8360f76" />
+![拖拽生成节点](images/5.png
 )
-![资源预览](<img width="960" height="504" alt="预览" src="https://github.com/user-attachments/assets/8df5954c-84f4-470f-a561-e3e917fcd56b" />
+![跨软件拖拽](images/6.png
 )
-![快速定位](<img width="959" height="496" alt="打开资源位置" src="https://github.com/user-attachments/assets/8debcac5-d954-4e8e-8061-8272258ac702" />
+![资源预览](images/7.png
+)
+![快速定位](images/8.png
 )
 <!-- 换成你的操作录屏 GIF，效果最好 -->
 
